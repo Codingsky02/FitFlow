@@ -1,0 +1,111 @@
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+wheels/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Virtual Environments
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# Environment Variables / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+!.env.template
+
+# API keys and credentials
+secrets.json
+credentials.json
+service-account.json
+*.pem
+*.key
+
+# ==============================
+# Database
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+*.dump
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# PySide6 / Qt
+# ==============================
+*.ui~
+*.qrc~
+*.qmlc
+*.jsc
+.qtcreator/
+.qt/
+PySide6/
+
+# ==============================
+# Flask
+# ==============================
+instance/
+.webassets-cache/
+
+# ==============================
+# PyInstaller
+# ==============================
+*.spec
+*.manifest
+
+# ==============================
+# IDEs and Editors
+# ==============================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ==============================
+# Operating System
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# Temporary Files
+# ==============================
+*.tmp
+*.bak
+*.swp
+*.swo
+.cache/
+
+# ==============================
+# Testing
+# ==============================
+.tox/
+.nox/
